@@ -83,11 +83,13 @@ pre,
 code {
   overflow: auto;
   font-size: 0.7*$base-font-size;
-  border-radius: 3px;
-  border: 1px solid $brand-color;
-  > code {
-    border: none;
-  }
+  background: $code-bg-dark;
+  color: $code-color-dark;
+//   border-radius: 3px;
+//   border: 1px solid $brand-color;
+//   > code {
+//     border: none;
+//   }
 }
 
 pre {

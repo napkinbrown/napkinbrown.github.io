@@ -16,9 +16,11 @@ $projectbox: #cfe6a4;
 $text-color: #333;
 
 // Color scheme for dark modes
-$body-bg-dark: #040f18;
+$body-bg-dark: #061725;
 $projectbox-dark: lighten($body-bg-dark, 10%);
 $text-color-dark: rgb(224, 224, 224);
+$code-bg-dark: #1e1e1e;
+$code-color-dark: $brand-color;
 
 // Colour palette for project boxes
 $theme1: ("one",#388087),("two", #6FB3B8),("three",#BADFE7),("four",#C2EDCE),("five",#F6F6F2);
