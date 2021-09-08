@@ -16,7 +16,7 @@ $projectbox: #cfe6a4;
 $text-color: #333;
 
 // Color scheme for dark modes
-$body-bg-dark: #061725;
+$body-bg-dark: #04111b;
 $projectbox-dark: lighten($body-bg-dark, 10%);
 $text-color-dark: rgb(224, 224, 224);
 $code-bg-dark: #1e1e1e;
@@ -26,3 +26,27 @@ $code-color-dark: $brand-color;
 $theme1: ("one",#388087),("two", #6FB3B8),("three",#BADFE7),("four",#C2EDCE),("five",#F6F6F2);
 $theme2: ("one",#E8DFE0),("two", #8D9B6A),("three",#8A9EA7),("four",#DAB692),("five",#8F5B34);
 $theme3: ("one",#78AAC3),("two", #C4DEED),("three",#97C8D6),("four",#EEAB74),("five",#F3CD86), ("six",#F5A280);
+
+// Color pallete from VS Code pygment styte:
+// https://github.com/Cryptex-github/pygments-vsc-style/blob/main/pygments_vsc_style/vsc.py
+$comment: #6A9955;
+$string: #CE9178;
+$number: #B5CEA8;
+$name: #D4D4D4;
+$name_decorator: #DCDCAA;
+$name_function: #DCDCAA;
+$name_class: #DCDCAA;
+$name_variable: #9fb4c3;
+$name_builtins: #4EC9B0;
+$name_constant: #9fb4c3;
+$keyword: $code-color-dark;
+$generic: #D4D4D4;
+$generic_emph: italic;
+$generic_strong: bold;
+$generic_heading: bold;
+$generic_subheading: bold;
+$punctuation: #D4D4D4;
+$operator: #D4D4D4;
+$operator_word: #569CD6;
+$other: #D4D4D4;
+$error: #F44747;
