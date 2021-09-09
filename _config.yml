@@ -10,10 +10,6 @@ email: domingomonk@gmail.com
 highlighter: rouge
 markdown: kramdown
 
-kramdown:
-  input: GFM
-  syntax_highlighter: rouge
-
 # Pagination
 paginate: 4
 permalink: /blog/:year/:title/
@@ -43,6 +39,9 @@ collections:
   projects:
     output: true
     permalink: /projects/:path/
+  writeups:
+    output: true
+    permalink: /writeups/:path/
 
 sass:
   sass_dir: /assets/css/_sass

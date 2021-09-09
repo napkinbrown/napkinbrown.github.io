@@ -32,13 +32,13 @@
 .highlight .m { color: $number } /* Literal.Number */
 .highlight .s { color: $string } /* Literal.String */
 .highlight .na { color: $name } /* Name.Attribute */
-.highlight .nb { color: $name_builtins} /* Name.Builtin */
+.highlight .nb { color: $name_function} /* Name.Builtin */
 .highlight .nc { color: $name } /* Name.Class */
 .highlight .no { color: $name_constant } /* Name.Constant */
 .highlight .nd { color: $name } /* Name.Decorator */
 .highlight .ni { color: #f8f8f2 } /* Name.Entity */
 .highlight .ne { color: $name } /* Name.Exception */
-.highlight .nf { color: $name } /* Name.Function */
+.highlight .nf { color: $name_function } /* Name.Function */
 .highlight .nl { color: #f8f8f2 } /* Name.Label */
 .highlight .nn { color: #f8f8f2 } /* Name.Namespace */
 .highlight .nx { color: $name } /* Name.Other */
