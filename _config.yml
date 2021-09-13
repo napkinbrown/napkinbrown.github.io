@@ -12,8 +12,8 @@ markdown: kramdown
 
 # Pagination
 paginate: 4
-permalink: /blog/:year/:title/
-paginate_path: /blog/page:num/
+permalink: /posts/:year/:title/
+paginate_path: /posts/page:num/
 
 # Social media links in footer
 twitter: "napkinbrown"
