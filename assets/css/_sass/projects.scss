@@ -16,7 +16,7 @@
   /* Minimum width of 200px and grow to fit available space */
   flex: 1 0 200px;
   border-radius: 15px;
-  background: $projectbox-dark;
+  background: $projectbox;
   // @media (prefers-color-scheme: dark) {
   //   background: $projectbox-dark;
   // }
@@ -36,7 +36,7 @@
 .projectTile a span {
   display: flex;
   justify-content: center;
-  color: $text-color-dark;
+  color: $text-color;
   // @media (prefers-color-scheme: dark) {
   //   color: $text-color-dark;
   // }
@@ -59,7 +59,7 @@
   font-size: 1.2rem;
   display: flex;
   padding: 1rem;
-  color: $text-color-dark;
+  color: $text-color;
 
   // @media (prefers-color-scheme: dark) {
   //   color: $text-color-dark;

@@ -1,12 +1,13 @@
 /*
-* Original Source: https://github.com/richleland/pygments-css/blob/master/monokai.css
+* Structure from: https://github.com/richleland/pygments-css/blob/master/monokai.css
+* 
 */
 
 .highlight .hll { background-color: #264f78 }
 .highlight  { background: $code-bg-dark; color: #f8f8f2 }
 .highlight .c { color: $comment } /* Comment */
 .highlight .err { color: #960050; background-color: #1e0010 } /* Error */
-.highlight .k { color: $keyword; font-weight: bold } /* Keyword */
+.highlight .k { color: $keyword} /* Keyword */
 .highlight .l { color: $number } /* Literal */
 .highlight .n { color: $name } /* Name */
 .highlight .o { color: $operator } /* Operator */
