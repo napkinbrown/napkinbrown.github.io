@@ -4,8 +4,8 @@ layout: default
 
 <div class="article-list">
   {% for post in paginator.posts %}
-    <h2><a href="{{post.url | prepend: site.baseurl}}">{{post.title}}</a></h2>
-    <p>{{post.excerpt | strip_html}}</p>
+    <h2><a href="{{post.url | prepend: site.baseurl}}">{{post.title}} - {{post.date | date: '%B %d, %Y'}}</a></h2>
+    <p>{{post.sub-title | strip_html}}</p>
   {% endfor %}
 </div>
 

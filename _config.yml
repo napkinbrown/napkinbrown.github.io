@@ -36,9 +36,6 @@ compress_html:
 
 #collection
 collections:
-  projects:
-    output: true
-    permalink: /projects/:path/
   writeups:
     output: true
     permalink: /writeups/:path/
