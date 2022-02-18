@@ -18,7 +18,6 @@ published: true
           <a href="{{ project.redirect }}" target="_blank">
           <span>
               <h2>{{ project.title }}</h2>
-              <br/>
               <p>{{ project.description }}</p>
           </span>
           </a>
@@ -30,7 +29,6 @@ published: true
           <a href="{{ project.url | prepend: site.baseurl | prepend: site.url }}">
           <span>
               <h2>{{ project.title }}</h2>
-              <br/>
               <p>{{ project.description }}</p>
           </span>
           </a>
