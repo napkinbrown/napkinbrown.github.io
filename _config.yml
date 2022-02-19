@@ -6,6 +6,7 @@ description: Developer | Game Dev | Hacker
 url: "" #custom url to be used instead of GitHub repository
 email: domingomonk@gmail.com
 
+image: /assets/images/profile.jpg
 
 highlighter: rouge
 markdown: kramdown
