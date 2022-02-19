@@ -12,9 +12,9 @@
 
 {% if page.image %}
 <meta name="twitter:card"  content="summary_large_image">
-<meta name="twitter:image" content="{{ site.url }}{{ page.image }}">
+<meta name="twitter:image" content="{{ site.baseurl }}{{ page.image }}">
 {% else %} 
 <meta name="twitter:card"  content="summary">
-<meta name="twitter:image" content="{{ site.url }}{{ site.image }}">
+<meta name="twitter:image" content="{{ site.baseurl }}{{ site.image }}">
 {% endif %}
 <!-- end of Twitter cards -->
