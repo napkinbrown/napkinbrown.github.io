@@ -2,10 +2,11 @@
 layout: about
 permalink: /
 profile:
-  align: right 
-  image: profile.jpg
+  align: right
+image: "/assets/images/profile.jpg" # For profile and twitter
+twitter:
+  card: summary
 published: true
-title: Dominic Brown
 ---
 
 **Hey there!** I'm Dom, and I'm a software engineer living in the Seattle area. I'm originally from North Carolina and graduated from [North Carolina State University](https://www.ncsu.edu/) in December 2021 with a Bachelors in Computer Science, Track in Security. While there, I served as the President for [HackPack](https://hackpack.club/), the cybersecurity club. Currently I work as a Full-Stack Software Engineer at [Elsevier](https://www.elsevier.com/), maintaining a web-based authoring platform using Spring and ReactJs. 

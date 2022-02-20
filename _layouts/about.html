@@ -3,8 +3,8 @@ layout: default
 ---
 
 {% if page.profile %}
-    {% if page.profile.image %}
-      <img class="profile {{ page.profile.align }}"  width="33.33%" src="{{ site.image }}">
+    {% if page.image %}
+      <img class="profile {{ page.profile.align }}"  width="33.33%" src="{{ page.image }}">
     {% endif %}
 {% endif %}
 
